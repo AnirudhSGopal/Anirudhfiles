@@ -1,18 +1,15 @@
 import React from 'react';
+/*import Navbar from './Components/Navbar/Navbar'
+import Page1 from './Components/pages/page1/page1';*/
+import FrontPage from './Components/FrontPage/FrontPage';
 
-import Navbar from './Components/Navbar/Navbar'
-import PlayStore from './Components/Playstore/PlayStore';
 
 
 function App() {
   return (
-   <div className='App'>
+   <div >
   
-    <Navbar/>
-    <PlayStore></PlayStore>
-    
-
-   
+   <FrontPage></FrontPage>
    </div>
   );
 }

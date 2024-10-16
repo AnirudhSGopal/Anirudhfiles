@@ -1,7 +1,12 @@
 body {
   margin: 0 !important;
-  overflow: hidden; 
+  overflow-x: hidden;
+  height: auto;
+  
  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
