@@ -7,6 +7,7 @@ import image3 from '../../../images/gymowner.png';
 import Leftaw from'../../../images/aleft.png';
 import rightaw from'../../../images/aright.png';
 
+
 function Page3() {
   return (
     <div className='background' >
@@ -21,42 +22,40 @@ function Page3() {
     <img  className='leftlogo'src={Leftaw} alt="logo" />
     </div>
         <Card className="cardsize mx-4">
-          <div className="image-wrapper">
-            <Card.Img className="imagesize" variant="top" src={image1} />
-          </div>
-          <Card.Body>
+          <Card.Img className="imagesize" variant="top" src={image1} />
+            <Card.Body>
+              <div className='wrap'>
             <Card.Title className="first">I'M A <br /><span className="fonttype">Homemaker</span></Card.Title>
-            <Card.Text>
-              Transform your home into a global hub for homemakers to share recipes, home decor ideas,
-              parenting tips, and more, cultivating a family-like, nurturing community.
+            </div>
+            <Card.Text className='textalign'>
+              Transform your home into a global hub for<br /> homemakers to share recipes, home decor ideas,<br />
+              parenting tips, and more, cultivating a family-like, <br /> nurturing community.
             </Card.Text>
           </Card.Body>
         </Card>
 
         {/* Entrepreneur Card */}
         <Card className="cardsize mx-4">
-          <div className="image-wrapper">
+      
             <Card.Img className="imagesize" variant="top" src={image2} />
-          </div>
+          
           <Card.Body>
             <Card.Title className="first">I'M A <br /><span className="fonttype">Entrepreneur</span></Card.Title>
-            <Card.Text>
-              Supercharge your professional connections. Network with fellow entrepreneurs, freelancers, 
-              and experts. Share insights, collaborate, and unlock business opportunities.
+            <Card.Text className='textalign'>
+              Supercharge your professional connections.<br /> Network with fellow entrepreneurs, freelancers,<br /> 
+              and experts. Share insights, collaborate, and <br />unlock business opportunities.
             </Card.Text>
           </Card.Body>
         </Card>
 
         {/* Gym Owner Card */}
         <Card className="cardsize mx-4">
-          <div className="image-wrapper">
-            <Card.Img className="imagesize" variant="top" src={image3} />
-          </div>
-          <Card.Body>
+         <Card.Img className="imagesize" variant="top" src={image3} />
+         <Card.Body className='cardbody'>
             <Card.Title className="first">I'M A <br /><span className="fonttype">Gym Owner</span></Card.Title>
-            <Card.Text>
-              Supercharge your professional connections. Network with fellow gym owners, fitness experts, 
-              and wellness professionals to expand your business.
+            <Card.Text className='textalign'>
+            Supercharge your professional connections.<br /> Network with fellow entrepreneurs, freelancers,<br /> 
+            and experts. Share insights, collaborate, and <br />unlock business opportunities.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -69,4 +68,4 @@ function Page3() {
   );
 }
 
-export default Page3;
+export default Page3; 

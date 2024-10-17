@@ -4,13 +4,16 @@
 
 
 
-
-
-
-    
+.navbar {
+    position: fixed;
+     top: 0;
+     width: 100%;
+     height: 70px;
+     padding: 0 20px;
+     display: flex;
+     align-items: center;
  
-
-    
+}
 
 .logo1{ 
  
@@ -45,19 +48,7 @@
     
     
 }
-.navbar {
-   position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
 
-   
-   
-
-}
 
 
 .Nav-links {
@@ -90,7 +81,7 @@ font-family: revert;
 
 }
 
-.cta-button {
+.cta-button1 {
     
     margin-top: 34px;
     background-color:#2952A2;
@@ -100,7 +91,7 @@ font-family: revert;
     border: none;
     cursor: pointer;
     font-size: 14px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .cta-button:hover {

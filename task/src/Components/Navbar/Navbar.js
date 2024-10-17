@@ -28,7 +28,7 @@ export default function Navbar() {
           <li className='text'>Contact Us</li>
         </ul>
       <div className='button'>
-        <button className="cta-button">Get Started For Free</button>
+        <button className="cta-button1">Get Started For Free</button>
         </div>
         </nav>
        
